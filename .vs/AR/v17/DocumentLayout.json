@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Game_Unity\\AR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|e:\\game_unity\\ar\\assets\\scripts\\playersavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playersavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|E:\\Game_Unity\\AR\\assets\\scripts\\productad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\productad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|E:\\Game_Unity\\AR\\assets\\scripts\\buttonevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|E:\\Game_Unity\\AR\\assets\\scripts\\raycastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\raycastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|E:\\Game_Unity\\AR\\assets\\scripts\\donut1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\donut1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|E:\\Game_Unity\\AR\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|E:\\Game_Unity\\AR\\assets\\scripts\\mainsceneback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainsceneback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|E:\\Game_Unity\\AR\\assets\\scripts\\menuback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|E:\\Game_Unity\\AR\\assets\\scripts\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|E:\\Game_Unity\\AR\\assets\\scripts\\savegamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savegamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|E:\\Game_Unity\\AR\\assets\\scripts\\savegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|E:\\Game_Unity\\AR\\assets\\scripts\\delete_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA328BBD-B798-4854-C54F-D8119A2987F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\delete_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RaycastController.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\RaycastController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RaycastController.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\RaycastController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RaycastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:30:27.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductAd.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\ProductAd.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProductAd.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\ProductAd.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProductAd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:27:35.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Menuback.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\Menuback.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menuback.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\Menuback.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menuback.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:22:54.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainSceneBack.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\MainSceneBack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainSceneBack.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\MainSceneBack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainSceneBack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:07:31.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:55:28.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerSaveData.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\PlayerSaveData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSaveData.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\PlayerSaveData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerSaveData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGcAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T15:24:04.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Donut1.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\Donut1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Donut1.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\Donut1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Donut1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:54:20.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ButtonEvent.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\ButtonEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonEvent.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\ButtonEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonEvent.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T12:37:09.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SaveData.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\SaveData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveData.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\SaveData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SaveData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:11:21.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SaveGameManager.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\SaveGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveGameManager.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\SaveGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SaveGameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:14:21.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SaveGame.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\SaveGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveGame.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\SaveGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SaveGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:16:49.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete_data.cs",
+              "DocumentMoniker": "E:\\Game_Unity\\AR\\Assets\\Scripts\\Delete_data.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Delete_data.cs",
+              "ToolTip": "E:\\Game_Unity\\AR\\Assets\\Scripts\\Delete_data.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Delete_data.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:46:30.068Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
