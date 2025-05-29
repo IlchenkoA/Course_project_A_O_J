@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|c:\\users\\pani2\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\github\\course_project_a_o_j\\assets\\scripts\\productad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\productad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|c:\\users\\pani2\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\github\\course_project_a_o_j\\assets\\scripts\\mainsceneback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainsceneback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Library\\PackageCache\\com.ptc.vuforia.engine@e5885903f78d\\Vuforia\\Scripts\\DefaultInitializationErrorHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.ptc.vuforia.engine@e5885903f78d\\Vuforia\\Scripts\\DefaultInitializationErrorHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\assets\\scripts\\buttonevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1446,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductAd.cs",
+              "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\ProductAd.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProductAd.cs",
+              "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\ProductAd.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProductAd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:53:51.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DefaultInitializationErrorHandler.cs",
+              "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Library\\PackageCache\\com.ptc.vuforia.engine@e5885903f78d\\Vuforia\\Scripts\\DefaultInitializationErrorHandler.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.ptc.vuforia.engine@e5885903f78d\\Vuforia\\Scripts\\DefaultInitializationErrorHandler.cs",
+              "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Library\\PackageCache\\com.ptc.vuforia.engine@e5885903f78d\\Vuforia\\Scripts\\DefaultInitializationErrorHandler.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.ptc.vuforia.engine@e5885903f78d\\Vuforia\\Scripts\\DefaultInitializationErrorHandler.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:52:45.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ButtonEvent.cs",
+              "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\ButtonEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonEvent.cs",
+              "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\ButtonEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:52:18.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainSceneBack.cs",
+              "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\MainSceneBack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainSceneBack.cs",
+              "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\MainSceneBack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainSceneBack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:49:53.729Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 936,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
