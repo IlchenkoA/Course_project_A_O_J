@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aab0d3210ec6c447afc922135d63132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameScene: Donut_four
+  NameScene: Plant4_Ivy
 --- !u!135 &81641434
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -735,7 +735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aab0d3210ec6c447afc922135d63132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameScene: Donut_seven
+  NameScene: Plant1_cactus_withflower
 --- !u!135 &310713436
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1045,7 +1045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aab0d3210ec6c447afc922135d63132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameScene: Donut_eight
+  NameScene: Plant2_suculent
 --- !u!135 &926594781
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1744,7 +1744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aab0d3210ec6c447afc922135d63132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameScene: Donut_one
+  NameScene: Plant7_kosarukblue
 --- !u!54 &1283850881
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1950,7 +1950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aab0d3210ec6c447afc922135d63132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameScene: Donut_three
+  NameScene: Plant8_Monstera
 --- !u!135 &1369938323
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2236,7 +2236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aab0d3210ec6c447afc922135d63132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameScene: Donut_two
+  NameScene: Plant3_mashroom
 --- !u!135 &1468731570
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2384,7 +2384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aab0d3210ec6c447afc922135d63132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameScene: Donut_six
+  NameScene: Plant6_konvaly
 --- !u!135 &1648957360
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2532,7 +2532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aab0d3210ec6c447afc922135d63132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameScene: Donut_five
+  NameScene: Plant5_Cactus_opunty
 --- !u!135 &1723023787
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2813,7 +2813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aab0d3210ec6c447afc922135d63132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameScene: Donut_nine
+  NameScene: Plant9_kosaruk
 --- !u!135 &1750959226
 SphereCollider:
   m_ObjectHideFlags: 0
