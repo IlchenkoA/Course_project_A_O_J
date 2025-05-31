@@ -914,6 +914,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: projectData
       objectReference: {fileID: 0}
+    - target: {fileID: 3206559548736638582, guid: 8b37a38599d44c14ca60344fa97835ee,
+        type: 3}
+      propertyPath: removeSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9ea174480390d454297e8983ce8787fa, type: 3}
+    - target: {fileID: 3206559548736638582, guid: 8b37a38599d44c14ca60344fa97835ee,
+        type: 3}
+      propertyPath: paymentSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d0a1f72121d879e43a490f0f63ff14f2, type: 3}
     - target: {fileID: 8184270320210057585, guid: 8b37a38599d44c14ca60344fa97835ee,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -13,3 +13,4 @@ UserSettings/
 *.booproj
 *.svd
 *.suo
+.vs/
