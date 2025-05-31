@@ -16,6 +16,11 @@ public class PlayerSaveData : MonoBehaviour
 
     [SerializeField] private List<CollectibleState> GetObject;
 
+    [SerializeField] private AudioClip paymentSound;
+    [SerializeField] private AudioClip removeSound;
+    private AudioSource audioSource;
+
+
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -26,6 +31,7 @@ public class PlayerSaveData : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(this.gameObject);
+            audioSource = gameObject.AddComponent<AudioSource>(); 
         }
     }
 
@@ -93,6 +99,12 @@ public class PlayerSaveData : MonoBehaviour
         }
 
         UpdateTotalPrice();
+
+        if (paymentSound != null)
+        {
+            audioSource.PlayOneShot(paymentSound);
+        }
+
     }
 
 
@@ -100,10 +112,16 @@ public class PlayerSaveData : MonoBehaviour
     {
         CollectibleState productToRemove = Instance.GetObject.FirstOrDefault(item => item.name == productName);
 
-        if (productToRemove.name != null)
+        if (!string.IsNullOrEmpty(productToRemove.name))
         {
             Instance.GetObject.Remove(productToRemove);
             Instance.UpdateTotalPrice();
+
+            if (Instance.removeSound != null)
+            {
+                Instance.audioSource.PlayOneShot(Instance.removeSound);
+            }
+
             Debug.Log("Product " + productName + " removed from cart.");
         }
         else
@@ -111,6 +129,7 @@ public class PlayerSaveData : MonoBehaviour
             Debug.Log("Product " + productName + " not found in cart.");
         }
     }
+
 
     private void UpdateTotalPrice()
     {
