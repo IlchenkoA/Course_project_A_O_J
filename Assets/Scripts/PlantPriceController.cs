@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PlantPriceController : MonoBehaviour, IPointerClickHandler
 {
@@ -43,15 +44,33 @@ public class PlantPriceController : MonoBehaviour, IPointerClickHandler
         TogglePrice();
     }
 
-    public void TogglePrice()
-    {
-        _isPriceVisible = !_isPriceVisible;
 
-        if (priceLabel != null)
+
+public void TogglePrice()
+{
+    _isPriceVisible = !_isPriceVisible;
+
+    if (priceLabel != null)
+    {
+        priceLabel.SetActive(_isPriceVisible);
+
+        if (_isPriceVisible)
         {
-            priceLabel.SetActive(_isPriceVisible);
-            if (_isPriceVisible)
-                priceLabel.GetComponent<Text>().text = priceText;
+            var labelText = priceLabel.GetComponent<TextMeshProUGUI>();
+            if (labelText != null)
+            {
+                labelText.text = priceText;
+            }
+            else
+            {
+                Debug.LogError("TextMeshProUGUI компонент не знайдений на priceLabel.");
+            }
         }
     }
+    else
+    {
+        Debug.LogError("priceLabel не призначений у інспекторі.");
+    }
+}
+
 }

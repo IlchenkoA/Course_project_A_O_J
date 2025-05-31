@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Donut1 : MonoBehaviour
+public class Plant1 : MonoBehaviour
 {
-    public string NameScene = "Donut_one";
+    public string NameScene = "Plant1_cactus_withflower";
 
     public void OnObjectClicked()
     {
-        // Тут ми викликаємо функцію, яка запускає перехід на нову сцену
         SceneManager.LoadScene(NameScene);
     }
 

@@ -20,8 +20,8 @@ public class PlayerSaveData : MonoBehaviour
     [SerializeField] private AudioClip removeSound;
     private AudioSource audioSource;
 
-    [Header("Confirmation UI")]
-    [SerializeField] private GameObject confirmationCanvas;
+    //[Header("Confirmation UI")]
+    //[SerializeField] private GameObject confirmationCanvas;
 
     private string pendingDeleteProductName = null;
     private GameObject pendingDeleteObject = null;
@@ -39,8 +39,8 @@ public class PlayerSaveData : MonoBehaviour
             audioSource = gameObject.AddComponent<AudioSource>();
         }
 
-        if (confirmationCanvas != null)
-            confirmationCanvas.SetActive(false);
+        //if (confirmationCanvas != null)
+        //    confirmationCanvas.SetActive(false);
     }
 
     void LateUpdate()
@@ -113,49 +113,27 @@ public class PlayerSaveData : MonoBehaviour
             audioSource.PlayOneShot(paymentSound);
         }
     }
-
-    public void AskRemoveProduct(string productName, GameObject objectToDestroy)
+    public static void RemoveProductFromCart(string productName)
     {
-        pendingDeleteProductName = productName;
-        pendingDeleteObject = objectToDestroy;
+        CollectibleState productToRemove = Instance.GetObject.FirstOrDefault(item => item.name == productName);
 
-
-        if (confirmationCanvas != null)
-            confirmationCanvas.SetActive(true);
-    }
-
-    public void ConfirmDelete()
-    {
-        if (string.IsNullOrEmpty(pendingDeleteProductName)) return;
-
-        var productToRemove = GetObject.FirstOrDefault(item => item.name == pendingDeleteProductName);
-
-        if (!string.IsNullOrEmpty(productToRemove.name))
+        if (productToRemove.name != null)
         {
-            GetObject.Remove(productToRemove);
-            UpdateTotalPrice();
+            Instance.GetObject.Remove(productToRemove);
+            Instance.UpdateTotalPrice();
 
-            if (removeSound != null)
-                audioSource.PlayOneShot(removeSound);
-
-            if (pendingDeleteObject != null)
-                Destroy(pendingDeleteObject);
-
-            Debug.Log($"Product {pendingDeleteProductName} removed from cart.");
+            // Використовуємо Instance для доступу до audioSource
+            if (Instance.removeSound != null)
+            {
+                Instance.audioSource.PlayOneShot(Instance.removeSound);
+            }
+            Debug.Log("Product " + productName + " removed from cart.");
         }
-
-        CancelDelete();
+        else
+        {
+            Debug.Log("Product " + productName + " not found in cart.");
+        }
     }
-
-    public void CancelDelete()
-    {
-        pendingDeleteProductName = null;
-        pendingDeleteObject = null;
-
-        if (confirmationCanvas != null)
-            confirmationCanvas.SetActive(false);
-    }
-
     private void UpdateTotalPrice()
     {
         TotalPrice = GetObject.Sum(item => item.price);

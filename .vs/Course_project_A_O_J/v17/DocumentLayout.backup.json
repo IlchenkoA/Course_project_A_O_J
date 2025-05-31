@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\assets\\scripts\\playersavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|c:\\users\\pani2\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\github\\course_project_a_o_j\\assets\\scripts\\donut1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\donut1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|c:\\users\\pani2\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\github\\course_project_a_o_j\\assets\\scripts\\delete_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\delete_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|c:\\users\\pani2\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\github\\course_project_a_o_j\\assets\\scripts\\playersavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playersavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|c:\\users\\pani2\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\github\\course_project_a_o_j\\assets\\scripts\\plantpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\assets\\scripts\\mainsceneback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainsceneback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\assets\\scripts\\plantpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plantpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|c:\\users\\pani2\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\github\\course_project_a_o_j\\assets\\scripts\\arplantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\assets\\scripts\\arplantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arplantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\assets\\scripts\\productad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\productad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\assets\\scripts\\mainsceneback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainsceneback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 835,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Donut1.cs",
+              "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\Donut1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Donut1.cs",
+              "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\Donut1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Donut1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T18:59:39.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Delete_data.cs",
+              "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\Delete_data.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Delete_data.cs",
+              "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\Delete_data.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Delete_data.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T18:09:07.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PlantPriceController.cs",
               "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\PlantPriceController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlantPriceController.cs",
@@ -47,20 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ARPlantController.cs",
-              "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\ARPlantController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ARPlantController.cs",
-              "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\ARPlantController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ARPlantController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:55:34.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ProductAd.cs",
               "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\ProductAd.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ProductAd.cs",
@@ -72,20 +93,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerSaveData.cs",
               "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\PlayerSaveData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSaveData.cs",
               "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\PlayerSaveData.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerSaveData.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwGAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T09:00:11.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainSceneBack.cs",
               "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\MainSceneBack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainSceneBack.cs",
@@ -93,7 +114,20 @@
               "RelativeToolTip": "Assets\\Scripts\\MainSceneBack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T08:50:38.609Z"
+              "WhenOpened": "2025-05-31T08:50:38.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ARPlantController.cs",
+              "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\ARPlantController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ARPlantController.cs",
+              "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\ARPlantController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ARPlantController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:55:34.047Z"
             }
           ]
         },
