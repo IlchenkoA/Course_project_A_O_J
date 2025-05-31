@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -417,10 +417,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 151bc2fd01a6ad941a34a1197f3f75a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameProduct: '"5" DONUT'
+  nameProduct: "\u041C\u043E\u043D\u0441\u0442\u0435\u0440\u0430"
   countProduct: 1
-  priceProduct: 3.5
-  priceOneProduct: 3.5
+  priceProduct: 190
+  priceOneProduct: 190
 --- !u!224 &647587580 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6644403974118933190, guid: 03a10388d20b3074298b09ed52534e90,
@@ -605,8 +605,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 308900691573839457, guid: ec0b592320525304fa96c8a602cbd57a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1151569860}
   m_SourcePrefab: {fileID: 100100000, guid: ec0b592320525304fa96c8a602cbd57a, type: 3}
+--- !u!1 &1151569859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 308900691573839457, guid: ec0b592320525304fa96c8a602cbd57a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1151569858}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1151569860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151569859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d0d3781bd3469a4281751174e01c88f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1551117948
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,6 +1011,9 @@ GameObject:
   - component: {fileID: 1867389702}
   - component: {fileID: 1867389701}
   - component: {fileID: 1867389700}
+  - component: {fileID: 1867389707}
+  - component: {fileID: 1867389706}
+  - component: {fileID: 1867389705}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -1096,6 +1121,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 32.228, y: 0, z: 0}
+--- !u!114 &1867389705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867389699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 0}
+--- !u!114 &1867389706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867389699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 728ad7fae8e460a4ba41265c7308d757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AnchorPrefab: {fileID: 0}
+--- !u!114 &1867389707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867389699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 0}
+  m_OriginBaseGameObject: {fileID: 1867389699}
+  m_CameraFloorOffsetObject: {fileID: 0}
+  m_RequestedTrackingOriginMode: 0
+  m_CameraYOffset: 1.1176
 --- !u!1001 &4743273308119585503
 PrefabInstance:
   m_ObjectHideFlags: 0

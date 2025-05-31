@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -417,10 +417,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 151bc2fd01a6ad941a34a1197f3f75a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameProduct: SECRET DONUT
+  nameProduct: "\u041A\u0430\u043A\u0442\u0443\u0441 \u0437 \u043A\u0432\u0456\u0442\u043A\u043E\u044E"
   countProduct: 1
-  priceProduct: 4
-  priceOneProduct: 4
+  priceProduct: 120
+  priceOneProduct: 120
 --- !u!1 &834603818
 GameObject:
   m_ObjectHideFlags: 0
@@ -1078,6 +1078,10 @@ GameObject:
   - component: {fileID: 1867389702}
   - component: {fileID: 1867389701}
   - component: {fileID: 1867389700}
+  - component: {fileID: 1867389708}
+  - component: {fileID: 1867389707}
+  - component: {fileID: 1867389706}
+  - component: {fileID: 1867389705}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -1185,6 +1189,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 32.228, y: 0, z: 0}
+--- !u!64 &1867389705
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867389699}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &1867389706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867389699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 728ad7fae8e460a4ba41265c7308d757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AnchorPrefab: {fileID: 0}
+--- !u!114 &1867389707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867389699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 0}
+--- !u!114 &1867389708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867389699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 0}
+  m_OriginBaseGameObject: {fileID: 1867389699}
+  m_CameraFloorOffsetObject: {fileID: 0}
+  m_RequestedTrackingOriginMode: 0
+  m_CameraYOffset: 1.1176
 --- !u!1001 &751607894872781297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1251,8 +1320,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5577896964221329200, guid: 2c5e7923589e0cb41829b5ba00cc4065,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 751607894872781299}
   m_SourcePrefab: {fileID: 100100000, guid: 2c5e7923589e0cb41829b5ba00cc4065, type: 3}
+--- !u!1 &751607894872781298 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5577896964221329200, guid: 2c5e7923589e0cb41829b5ba00cc4065,
+    type: 3}
+  m_PrefabInstance: {fileID: 751607894872781297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &751607894872781299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751607894872781298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d0d3781bd3469a4281751174e01c88f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
