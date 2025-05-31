@@ -12,7 +12,7 @@ public class PlayerSaveData : MonoBehaviour
     public bool isCreated = false;
 
     private static PlayerSaveData instance;
-    public static PlayerSaveData Instance { get { return instance; } }
+    public static PlayerSaveData Instance => instance;
 
     [SerializeField] private List<CollectibleState> GetObject;
 
@@ -20,6 +20,11 @@ public class PlayerSaveData : MonoBehaviour
     [SerializeField] private AudioClip removeSound;
     private AudioSource audioSource;
 
+    [Header("Confirmation UI")]
+    [SerializeField] private GameObject confirmationCanvas;
+
+    private string pendingDeleteProductName = null;
+    private GameObject pendingDeleteObject = null;
 
     private void Awake()
     {
@@ -31,8 +36,11 @@ public class PlayerSaveData : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(this.gameObject);
-            audioSource = gameObject.AddComponent<AudioSource>(); 
+            audioSource = gameObject.AddComponent<AudioSource>();
         }
+
+        if (confirmationCanvas != null)
+            confirmationCanvas.SetActive(false);
     }
 
     void LateUpdate()
@@ -104,32 +112,49 @@ public class PlayerSaveData : MonoBehaviour
         {
             audioSource.PlayOneShot(paymentSound);
         }
-
     }
 
-
-    public static void RemoveProductFromCart(string productName)
+    public void AskRemoveProduct(string productName, GameObject objectToDestroy)
     {
-        CollectibleState productToRemove = Instance.GetObject.FirstOrDefault(item => item.name == productName);
+        pendingDeleteProductName = productName;
+        pendingDeleteObject = objectToDestroy;
+
+
+        if (confirmationCanvas != null)
+            confirmationCanvas.SetActive(true);
+    }
+
+    public void ConfirmDelete()
+    {
+        if (string.IsNullOrEmpty(pendingDeleteProductName)) return;
+
+        var productToRemove = GetObject.FirstOrDefault(item => item.name == pendingDeleteProductName);
 
         if (!string.IsNullOrEmpty(productToRemove.name))
         {
-            Instance.GetObject.Remove(productToRemove);
-            Instance.UpdateTotalPrice();
+            GetObject.Remove(productToRemove);
+            UpdateTotalPrice();
 
-            if (Instance.removeSound != null)
-            {
-                Instance.audioSource.PlayOneShot(Instance.removeSound);
-            }
+            if (removeSound != null)
+                audioSource.PlayOneShot(removeSound);
 
-            Debug.Log("Product " + productName + " removed from cart.");
+            if (pendingDeleteObject != null)
+                Destroy(pendingDeleteObject);
+
+            Debug.Log($"Product {pendingDeleteProductName} removed from cart.");
         }
-        else
-        {
-            Debug.Log("Product " + productName + " not found in cart.");
-        }
+
+        CancelDelete();
     }
 
+    public void CancelDelete()
+    {
+        pendingDeleteProductName = null;
+        pendingDeleteObject = null;
+
+        if (confirmationCanvas != null)
+            confirmationCanvas.SetActive(false);
+    }
 
     private void UpdateTotalPrice()
     {
@@ -160,6 +185,7 @@ public struct CollectibleState
     public float price;
     public float priceOne;
 }
+
 
 
 

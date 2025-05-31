@@ -1,35 +1,51 @@
-using System.Collections;
-using System.Collections.Generic;
+//using System.Collections;
+//using System.Collections.Generic;
+//using TMPro;
+//using UnityEngine;
+
+//public class Delete_data : MonoBehaviour
+//{
+//    public GameObject name;
+
+//    public GameObject conteiner;
+
+//    private void Start()
+//    {
+
+//    }
+
+//    public void dell()
+//    {
+
+//        PlayerSaveData.RemoveProductFromCart(name.GetComponent<TextMeshProUGUI>().text);
+
+//        Destroy(this.gameObject);
+//    }
+//    private void LateUpdate()
+//    {
+//        conteiner = GameObject.Find("Container");
+
+//        this.gameObject.transform.SetParent(conteiner.transform);
+//    }
+//}
+
 using TMPro;
 using UnityEngine;
 
 public class Delete_data : MonoBehaviour
 {
     public GameObject name;
-
-    // поле для зберігання контейнера
     public GameObject conteiner;
 
-    private void Start()
-    {
-        
-    }
-
-    // Публічний метод для видалення продукту з кошика
-    public void dell()
-    {
-        // Викликає метод RemoveProductFromCart з класу PlayerSaveData, передаючи назву продукту для видалення
-        PlayerSaveData.RemoveProductFromCart(name.GetComponent<TextMeshProUGUI>().text);
-
-        // Знищує поточний об'єкт
-        Destroy(this.gameObject);
-    }
     private void LateUpdate()
     {
-        // Знаходить об'єкт з ім'ям "Container" і зберігає посилання на нього в змінну conteiner
         conteiner = GameObject.Find("Container");
+        this.transform.SetParent(conteiner.transform);
+    }
 
-        // Встановлює поточний об'єкт дочірнім для контейнера
-        this.gameObject.transform.SetParent(conteiner.transform);
+    public void OnDeleteButtonPressed()
+    {
+        string productName = name.GetComponent<TextMeshProUGUI>().text;
+        PlayerSaveData.Instance.AskRemoveProduct(productName, this.gameObject);
     }
 }

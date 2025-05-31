@@ -74,8 +74,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4293662047
-  m_fontColor: {r: 0.37254903, g: 0.08235294, b: 0.92549026, a: 1}
+    rgba: 4278864410
+  m_fontColor: {r: 0.10205736, g: 0.2905661, b: 0.038924895, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -263,7 +263,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 455, y: 20}
+  m_AnchoredPosition: {x: 443, y: -1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5769102509778664347
@@ -294,7 +294,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39971c990e0b804498a619cfd36296b9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f8675d73ed592f9498600776fbd2fc69, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -350,7 +350,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 847668978780180806}
         m_TargetAssemblyTypeName: Delete_data, Assembly-CSharp
-        m_MethodName: dell
+        m_MethodName: OnDeleteButtonPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -434,8 +434,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4293662047
-  m_fontColor: {r: 0.37254903, g: 0.08235294, b: 0.92549026, a: 1}
+    rgba: 4279123732
+  m_fontColor: {r: 0.07649196, g: 0.24528301, b: 0.055072952, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -568,8 +568,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4293662047
-  m_fontColor: {r: 0.37254903, g: 0.08235294, b: 0.92549026, a: 1}
+    rgba: 4278731268
+  m_fontColor: {r: 0.015229601, g: 0.2603773, b: 0.030306436, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
