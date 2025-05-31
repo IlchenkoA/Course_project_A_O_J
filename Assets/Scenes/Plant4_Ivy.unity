@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1109,6 +1109,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button_plus
       objectReference: {fileID: 0}
+    - target: {fileID: 5874021050743821988, guid: 03a10388d20b3074298b09ed52534e90,
+        type: 3}
+      propertyPath: productAd
+      value: 
+      objectReference: {fileID: 593860700}
     - target: {fileID: 6644403974118933190, guid: 03a10388d20b3074298b09ed52534e90,
         type: 3}
       propertyPath: m_Pivot.x

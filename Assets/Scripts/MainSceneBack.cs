@@ -1,12 +1,8 @@
-using SaveLoadsSystem;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainSceneBack : MonoBehaviour
 {
-    private GameObject dataBase;
     public void StartGameOnClick()
     {
         SceneManager.LoadScene("SampleScene");
@@ -17,10 +13,21 @@ public class MainSceneBack : MonoBehaviour
         SceneManager.LoadScene("Cart");
     }
 
-    
+    public void BackToLastVisitedFlower()
+    {
+        string lastFlowerScene = PlayerPrefs.GetString("LastVisitedFlowerScene", "SampleScene");
+        SceneManager.LoadScene(lastFlowerScene);
+    }
+
+
     public void QuitGameOnClick()
     {
         Debug.Log("GameQuit");
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
         Application.Quit();
+#endif
     }
 }

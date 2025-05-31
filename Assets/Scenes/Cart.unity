@@ -669,7 +669,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 687487000}
         m_TargetAssemblyTypeName: MainSceneBack, Assembly-CSharp
-        m_MethodName: StartGameOnClick
+        m_MethodName: BackToLastVisitedFlower
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
