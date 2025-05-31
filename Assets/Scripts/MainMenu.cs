@@ -1,4 +1,4 @@
-using System.Collections;
+п»їusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,16 +7,19 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGameOnClick()
     {
-        // Завантажує наступну сцену за індексом
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    // Метод, який викликається при натисканні на кнопку для виходу з гри
     public void QuitGameOnClick()
     {
         Debug.Log("GameQuit");
 
-        // Закриває додаток
-        Application.Quit();
+#if UNITY_EDITOR
+        // Р—СѓРїРёРЅСЏС” РіСЂСѓ РІ СЂРµРґР°РєС‚РѕСЂС– Unity
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+    // Р—Р°РєСЂРёРІР°С” РіСЂСѓ РІ Р·Р±С–СЂС†С–
+    Application.Quit();
+#endif
     }
 }
