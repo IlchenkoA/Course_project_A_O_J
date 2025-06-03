@@ -42,6 +42,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Cart.unity
     guid: a865a9318c3b3e640a9e7ef440d579da
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 43b7b651f6ffdfa479d95bc64bd531f5,
+      type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: e39e376cfc28c72499e6b19cd999ee6f,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 14b88319e77d11c44b2d59767f4052fa,

@@ -423,8 +423,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameProduct: "\u0411\u043B\u0430\u043A\u0438\u0442\u043D\u0438\u0439 \u0433\u0440\u0438\u0431"
   countProduct: 1
-  priceProduct: 300
-  priceOneProduct: 300
+  priceProduct: 130
+  priceOneProduct: 130
 --- !u!1 &834603818
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,6 +1470,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2093145553}
+    - targetCorrespondingSourceObject: {fileID: 2940115168756029568, guid: 17dbf69841f06d544941168d318bcef5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2093145554}
   m_SourcePrefab: {fileID: 100100000, guid: 17dbf69841f06d544941168d318bcef5, type: 3}
 --- !u!1 &2093145551 stripped
 GameObject:
@@ -1502,7 +1506,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   priceLabel: {fileID: 1408001859}
-  priceText: "\u0426\u0456\u043D\u0430: 330 \u0433\u0440\u043D"
+  priceText: "\u0426\u0456\u043D\u0430: 130 \u0433\u0440\u043D"
+--- !u!64 &2093145554
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093145551}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4870924942046871396, guid: 7a2f13efda94a434f8f5a37ef84113e8, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

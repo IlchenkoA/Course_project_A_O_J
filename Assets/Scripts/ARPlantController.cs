@@ -63,8 +63,7 @@ public class ARPlantController : MonoBehaviour
             }
         }
 
-        if (!_isPlaced)
-        {
+  
             // Масштабування
             if (Touchscreen.current.touches.Count == 2)
             {
@@ -96,5 +95,4 @@ public class ARPlantController : MonoBehaviour
                 }
             }
         }
-    }
 }
