@@ -153,6 +153,12 @@ public class PlayerSaveData : MonoBehaviour
     {
         return GetObject;
     }
+    public void ClearCart()
+    {
+        GetObject.Clear();
+        UpdateTotalPrice(); // також скине TotalPrice до 0 і оновить UI
+    }
+
 }
 
 [System.Serializable]

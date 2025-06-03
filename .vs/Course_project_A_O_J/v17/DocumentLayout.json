@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\assets\\scripts\\plantpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plantpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\assets\\scripts\\playersavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playersavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|c:\\users\\pani2\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\github\\course_project_a_o_j\\assets\\scripts\\savegamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savegamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|c:\\users\\pani2\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\github\\course_project_a_o_j\\assets\\scripts\\orderconfirmationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\orderconfirmationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\assets\\scripts\\plantpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plantpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\assets\\scripts\\delete_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\delete_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|c:\\users\\pani2\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\github\\course_project_a_o_j\\assets\\scripts\\savegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFAC2F1E-1720-0C1E-9C1C-1D747A6CF417}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 835,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SaveGame.cs",
-              "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\SaveGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveGame.cs",
-              "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\SaveGame.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SaveGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T19:05:03.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SaveGameManager.cs",
-              "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\SaveGameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveGameManager.cs",
-              "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\SaveGameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SaveGameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T19:04:12.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerSaveData.cs",
               "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\PlayerSaveData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSaveData.cs",
               "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\PlayerSaveData.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerSaveData.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAowIMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAwwKcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T09:00:11.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderConfirmationUI.cs",
+              "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\OrderConfirmationUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OrderConfirmationUI.cs",
+              "ToolTip": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\OrderConfirmationUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OrderConfirmationUI.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T10:49:35.993Z",
               "EditorCaption": ""
             },
             {
@@ -81,12 +64,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Delete_data.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T18:09:07.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T18:09:07.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlantPriceController.cs",
               "DocumentMoniker": "C:\\Users\\pani2\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\GitHub\\Course_project_A_O_J\\Assets\\Scripts\\PlantPriceController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlantPriceController.cs",
@@ -94,8 +76,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlantPriceController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T17:20:21.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T17:20:21.383Z"
             }
           ]
         },
