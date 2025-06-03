@@ -18,6 +18,9 @@ public class ARPlantController : MonoBehaviour
     private float _lastTapTime = 0f;
     private float _doubleTapThreshold = 0.3f;
 
+    private bool _isRotating = false;
+    private Vector3 _lastMousePosition;
+
     void Start()
     {
         _raycastManager = FindObjectOfType<ARRaycastManager>();
@@ -27,6 +30,9 @@ public class ARPlantController : MonoBehaviour
 
     void Update()
     {
+        // ==========================
+        // Подвійний клік ЛКМ / тап — Поставити / прибрати об’єкт
+        // ==========================
         if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
         {
             float timeSinceLastTap = Time.time - _lastTapTime;
@@ -34,7 +40,6 @@ public class ARPlantController : MonoBehaviour
 
             if (timeSinceLastTap <= _doubleTapThreshold)
             {
-                // Обробка подвійного тапу
                 var touchPosition = Touchscreen.current.primaryTouch.position.ReadValue();
                 if (!_isPlaced)
                 {
@@ -63,36 +68,73 @@ public class ARPlantController : MonoBehaviour
             }
         }
 
-  
-            // Масштабування
-            if (Touchscreen.current.touches.Count == 2)
-            {
-                var touch1 = Touchscreen.current.touches[0].position.ReadValue();
-                var touch2 = Touchscreen.current.touches[1].position.ReadValue();
+        // ==========================
+        // Коліщатко миші — Масштаб
+        // ==========================
+        float scroll = Mouse.current.scroll.ReadValue().y;
+        if (Mathf.Abs(scroll) > 0.01f)
+        {
+            float scaleFactor = 1f + scroll * 0.01f;
+            transform.localScale *= scaleFactor;
+        }
 
-                if (Touchscreen.current.touches[0].phase.ReadValue() == UnityEngine.InputSystem.TouchPhase.Began ||
-                    Touchscreen.current.touches[1].phase.ReadValue() == UnityEngine.InputSystem.TouchPhase.Began)
-                {
-                    _initialDistance = Vector2.Distance(touch1, touch2);
-                }
-                else
-                {
-                    float currentDistance = Vector2.Distance(touch1, touch2);
-                    float scaleFactor = currentDistance / _initialDistance;
-                    transform.localScale = _initialScale * scaleFactor;
-                }
+        // ==========================
+        // ПКМ + рух миші — Переміщення
+        // ==========================
+        if (Mouse.current.rightButton.isPressed && !Keyboard.current.altKey.isPressed)
+        {
+            Vector3 delta = Mouse.current.delta.ReadValue();
+            Vector3 move = new Vector3(delta.x, 0, delta.y) * 0.001f;
+            transform.position += move;
+        }
+
+        // ====================================================
+        // Alt + ПКМ + рух миші (вліво/вправо) — Поворот навколо осі Y
+        // Alt + ПКМ + рух миші (вгору/вниз) — Вертикальний нахил (обертання)
+        // ====================================================
+        if (Mouse.current.rightButton.isPressed && Keyboard.current.altKey.isPressed)
+        {
+            Vector2 mouseDelta = Mouse.current.delta.ReadValue();
+            float rotationY = mouseDelta.x * 0.5f;       // обертання навколо осі Y
+            float rotationX = -mouseDelta.y * 0.5f;      // вертикальний нахил
+
+            transform.Rotate(Vector3.up, rotationY, Space.World);
+            transform.Rotate(Vector3.right, rotationX, Space.Self);
+        }
+
+        // ==========================
+        // Пінч на сенсорі — Масштаб
+        // ==========================
+        if (Touchscreen.current != null && Touchscreen.current.touches.Count == 2)
+        {
+            var touch1 = Touchscreen.current.touches[0].position.ReadValue();
+            var touch2 = Touchscreen.current.touches[1].position.ReadValue();
+
+            if (Touchscreen.current.touches[0].phase.ReadValue() == UnityEngine.InputSystem.TouchPhase.Began ||
+                Touchscreen.current.touches[1].phase.ReadValue() == UnityEngine.InputSystem.TouchPhase.Began)
+            {
+                _initialDistance = Vector2.Distance(touch1, touch2);
             }
-
-            // Переміщення
-            if (Touchscreen.current.primaryTouch.press.isPressed && Touchscreen.current.touches.Count == 1)
+            else
             {
-                var touchPosition = Touchscreen.current.primaryTouch.position.ReadValue();
-
-                if (_raycastManager.Raycast(touchPosition, _hits, TrackableType.PlaneWithinPolygon))
-                {
-                    Pose hitPose = _hits[0].pose;
-                    transform.position = hitPose.position;
-                }
+                float currentDistance = Vector2.Distance(touch1, touch2);
+                float scaleFactor = currentDistance / _initialDistance;
+                transform.localScale = _initialScale * scaleFactor;
             }
         }
+
+        // ==========================
+        // Один дотик — Переміщення
+        // ==========================
+        if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.isPressed && Touchscreen.current.touches.Count == 1)
+        {
+            var touchPosition = Touchscreen.current.primaryTouch.position.ReadValue();
+
+            if (_raycastManager.Raycast(touchPosition, _hits, TrackableType.PlaneWithinPolygon))
+            {
+                Pose hitPose = _hits[0].pose;
+                transform.position = hitPose.position;
+            }
+        }
+    }
 }
