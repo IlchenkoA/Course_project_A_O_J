@@ -20,9 +20,7 @@ public class PlayerSaveData : MonoBehaviour
     [SerializeField] private AudioClip removeSound;
     private AudioSource audioSource;
 
-    //[Header("Confirmation UI")]
-    //[SerializeField] private GameObject confirmationCanvas;
-
+ 
     private string pendingDeleteProductName = null;
     private GameObject pendingDeleteObject = null;
 
@@ -39,8 +37,6 @@ public class PlayerSaveData : MonoBehaviour
             audioSource = gameObject.AddComponent<AudioSource>();
         }
 
-        //if (confirmationCanvas != null)
-        //    confirmationCanvas.SetActive(false);
     }
 
     void LateUpdate()
@@ -170,112 +166,3 @@ public struct CollectibleState
     public float priceOne;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//public class PlayerSaveData : MonoBehaviour
-//{
-//    private CartData MyData = new CartData();
-
-//    [SerializeField] private string Name;
-//    [SerializeField] private int Count;
-//    [SerializeField] private float Price;
-
-
-//    [SerializeField] private List<CollectibleState> GetObject;
-//    private void Start()
-//    {
-//        MyData.collectedObjects = new List<CollectibleState>();
-//    }
-
-
-//    void LateUpdate()
-//    {
-
-
-//        if (Input.GetButtonDown("O"))
-//        {
-//            SaveMyScene();
-//        }
-//        if (Input.GetButtonDown("L"))
-//        {
-//            LoadMyScene();
-
-//        }
-//    }
-//    [System.Serializable]
-//    public struct CollectibleState
-//    {
-//        //public bool isActive;
-//        //public Vector3 position;
-//        public string name;
-//        public int count;
-//        public float price;
-//    }
-//    public void SaveMyScene()
-//    {
-//        //MyData.name = Name;
-//        //MyData.count = Count;
-//        //MyData.price = Price;
-
-
-
-//        // Äîäàºìî íîâèé îá'ºêò äî ñïèñêó
-//        MyData.collectedObjects.Add(new CollectibleState
-//        {
-//            name = Name,
-//            count = Count,
-//            price = Price
-//        });
-
-
-//        SaveGameManager.CurrentSaveData.PlayerData = MyData;
-//        Debug.Log(MyData.collectedObjects);
-//        SaveGameManager.Save();
-//    }
-//    public void LoadMyScene()
-//    {
-//        SaveGameManager.Load();
-//        MyData = SaveGameManager.CurrentSaveData.PlayerData;
-
-//        GetObject = MyData.collectedObjects;
-//    }
-//}
-//[System.Serializable]
-//public struct CartData
-//{
-//    public List<CollectibleState> collectedObjects;
-//}

@@ -29,34 +29,5 @@ public class Delete_data : MonoBehaviour
     }
 }
 
-//using TMPro;
-//using UnityEngine;
 
-//public class Delete_data : MonoBehaviour
-//{
-//    public GameObject name;
-//    public GameObject conteiner;
-
-//    private void LateUpdate()
-//    {
-//        conteiner = GameObject.Find("Container");
-//        this.transform.SetParent(conteiner.transform);
-//    }
-
-//    public void OnDeleteButtonPressed()
-//    {
-//        string productName = name.GetComponent<TextMeshProUGUI>().text;
-//        Debug.Log($"[OnDeleteButtonPressed] Натиснута кнопка видалення для: {productName}");
-
-//        if (PlayerSaveData.Instance == null)
-//        {
-//            Debug.LogError("[OnDeleteButtonPressed] PlayerSaveData.Instance == null");
-//        }
-//        else
-//        {
-//            PlayerSaveData.Instance.AskRemoveProduct(productName, this.gameObject);
-//        }
-//    }
-
-//}
 
